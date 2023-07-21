@@ -43,13 +43,14 @@ font-family: 'Bacasime Antique', serif;
 @media only screen and (max-width: 1024px){
     .contact-section{
         background-color: whitesmoke;
-        width: 160%;
+        width: 100%;
         height: auto;
         margin: 5rem 0;
         padding: 3rem 0;
     }
     .contact-section>input{
-        width: 100vw;
+        width: 80vw;
+        border-radius: 5px;
     }
 
 }

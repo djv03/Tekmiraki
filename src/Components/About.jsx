@@ -15,7 +15,7 @@ function About() {
 
                 <h3>Our Mission</h3>
                 <div>___________________________</div>
-                <p>At Techmiraki, our mission is to provide innovative technological solutions that enhance the efficiency and productivity of our clients industrial operations. We strive to deliver exceptional services in the areas of automation, IOT, networking, and electrical/instrumentation field work. We are committed to building long-lasting relationships with our clients and exceeding their expectations with our expertise and professionalism.</p>
+                <p>At Tecmeraki, our mission is to provide innovative technological solutions that enhance the efficiency and productivity of our clients industrial operations. We strive to deliver exceptional services in the areas of automation, IOT, networking, and electrical/instrumentation field work. We are committed to building long-lasting relationships with our clients and exceeding their expectations with our expertise and professionalism.</p>
 
                 <p>Lets talk with me.</p>
                 <h4>contact@domain.com</h4>
@@ -31,7 +31,7 @@ function About() {
 
                     <h1>Team Story</h1>
                     <div>________________________</div>
-                    <p>Techmiraki was founded by a team of experienced professionals who shared a vision of providing cutting-edge technological solutions to industrial clients. With a combined experience of over 50 years, the team has successfully delivered projects across various industries, including chemical, paper, and beverage. Their focus on quality, innovation, and customer satisfaction has helped Techmiraki establish itself as a trusted partner for industrial services.</p>
+                    <p>Tecmeraki was founded by a team of experienced professionals who shared a vision of providing cutting-edge technological solutions to industrial clients. With a combined experience of over 50 years, the team has successfully delivered projects across various industries, including chemical, paper, and beverage. Their focus on quality, innovation, and customer satisfaction has helped Tecmeraki establish itself as a trusted partner for industrial services.</p>
                     <button><a href="/">Download CV</a></button>
                 </div>
                 <div className="story-img">

@@ -9,19 +9,19 @@ function Client() {
     <div className="client-container">
         <div className='client-card'>
             <img className='client-img' src={clientimg} alt="clientimg" />
-            <p className='client-testimony'>Techmiraki offers top-notch industrial solutions that have significantly improved our operational efficiency.</p>
+            <p className='client-testimony'>Tecmeraki offers top-notch industrial solutions that have significantly improved our operational efficiency.</p>
             <h1>____</h1>
             <h3  className='client-name'>John Doe</h3>
         </div>
         <div className='client-card'>
             <img className='client-img' src={clientimg} alt="clientimg" />
-            <p className='client-testimony'>Techmiraki offers top-notch industrial solutions that have significantly improved our operational efficiency.</p>
+            <p className='client-testimony'>Tecmeraki offers top-notch industrial solutions that have significantly improved our operational efficiency.</p>
             <h1>____</h1>
             <h3  className='client-name'>John Doe</h3>
         </div>
         <div className='client-card'>
             <img className='client-img' src={clientimg} alt="clientimg" />
-            <p className='client-testimony'>Techmiraki offers top-notch industrial solutions that have significantly improved our operational efficiency.</p>
+            <p className='client-testimony'>Tecmeraki offers top-notch industrial solutions that have significantly improved our operational efficiency.</p>
             <h1>____</h1>
             <h3  className='client-name'>John Doe</h3>
         </div>

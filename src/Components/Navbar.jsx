@@ -22,7 +22,7 @@ function Navbar() {
                 
                     <a href="/"><Link to='/'>Home</Link> </a>
                     <a href="/"><Link to='/about'>About</Link></a>
-                    <a href="/"><Link to='/'>Services</Link></a>
+                    {/* <a href="/"><Link to='/'>Services</Link></a> */}
                     <a href="/"><Link to='/contact'>Contact</Link></a>
                     <button
                         className="nav-btn nav-close-btn"
