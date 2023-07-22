@@ -3,9 +3,11 @@ import Contact from './Contact'
 import Client from './Client'
 import './about.css'
 
-import facebook from '../assets/facebook.png'
-import linkedin from '../assets/linkedin.png'
-import twitter from '../assets/pngtwitter.png'
+import {BsLinkedin, BsInstagram} from 'react-icons/bs'
+import {BiSolidPhoneCall} from 'react-icons/bi'
+// import facebook from '../assets/facebook.png'
+// import linkedin from '../assets/linkedin.png'
+// import twitter from '../assets/pngtwitter.png'
 import storyimg from '../assets/aboutimg.webp'
 function About() {
     return (
@@ -20,9 +22,9 @@ function About() {
                 <p>Lets talk with me.</p>
                 <h4>contact@domain.com</h4>
                 <div className="socials">
-                    <a href="/"><img src={linkedin} alt="linkedin" /></a>
-                    <a href="/"><img src={facebook} alt="insta" /></a>
-                    <a href="/"><img src={twitter} alt="twitter" /></a>
+                    <a href="/"><BsLinkedin style={{color: 'black', fontSize: "1.75rem"}}/></a>
+                    <a href="/"><BsInstagram style={{color: 'black', fontSize: "1.75rem"}}/></a>
+                    <a href="/"><BiSolidPhoneCall style={{color: 'black', fontSize: "1.75rem"}}/></a>
                 </div>
             </div>
 
@@ -39,8 +41,12 @@ function About() {
                     <img src={storyimg} alt="" />
                 </div>
             </div>
+            <section className='gray-bg'>
             <Client />
+            </section>
+            <section className='white-bg'>
             <Contact />
+            </section>
         </div>
     )
 }

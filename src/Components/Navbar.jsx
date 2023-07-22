@@ -1,10 +1,9 @@
-
 import './Navbar.css'
 import { useRef } from 'react'
 import { FaTimes } from 'react-icons/fa'
 import { AiOutlineMenu } from 'react-icons/ai'
 import logo from '../assets/Logo.jpg'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 function Navbar() {
 
     const navRef = useRef();
@@ -12,6 +11,11 @@ function Navbar() {
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
     };
+
+    const closeNavbar = () => {
+        navRef.current.classList.remove('responsive_nav');
+    };
+
     return (
         <>
             <header>
@@ -20,10 +24,10 @@ function Navbar() {
                 </div>
                 <nav ref={navRef}>
                 
-                    <a href="/"><Link to='/'>Home</Link> </a>
-                    <a href="/"><Link to='/about'>About</Link></a>
-                    <a href="/"><Link to='/portfolio'>Portfolio</Link></a>
-                    <a href="/"><Link to='/contact'>Contact</Link></a>
+                    <a href="/" onClick={closeNavbar}><NavLink to='/'>Home</NavLink> </a>
+                    <a href="/" onClick={closeNavbar}><NavLink to='/about'>About</NavLink></a>
+                    <a href="/#services" onClick={closeNavbar}>Services</a>
+                    <a href="/" onClick={closeNavbar}><NavLink to='/contact'>Contact</NavLink></a>
                     <button
                         className="nav-btn nav-close-btn"
                         onClick={showNavbar}>
