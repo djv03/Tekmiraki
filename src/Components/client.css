@@ -12,6 +12,7 @@
 .client-container{
     width: 100%;
     display: flex;
+    gap: 1.5rem;
     justify-content: space-evenly;
 }
 .client-card{
@@ -19,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: fit-content;
     border: 2px solid transparent;
     border-radius: 13px;
     background-color: rgb(243, 243, 243);
@@ -53,10 +54,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0 2rem;
     }
     .client-card{
-        width: 75%;
-        margin: 13px 0px;
+        width: 50%;
+        margin: 1rem 2rem;
     }
     .client-card>h3{
         margin: 33px 0;
