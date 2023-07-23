@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-// import Contact from './Components/Contact';
 import About from "./Components/About";
 import Homepage from "./Components/Homepage";
 import Footer from "./Components/Footer";
+import Adress from './Components/Adress';
 import IndustrialAutomation from "./pages/IndustrialAutomation";
 import AdvancedIOT from "./pages/AdvancedIOT";
 import IndustrialElectrical from "./pages/IndustrialElectrical";
@@ -32,7 +32,8 @@ function App() {
               path="/industrialelectrical"
               element={<IndustrialElectrical />}
             ></Route>
-            <Route path="/contactpage" element={<ContactPage />}></Route>
+						<Route path="/contactpage" element={<ContactPage />}></Route>
+            {/* <Route path="/contactpage" element={<AdressPage />}></Route> */}
           </Routes>
         </React.Fragment>
         <Footer />

@@ -12,6 +12,7 @@
   align-items: flex-start;
   padding: 0 3rem;
   gap: 2rem;
+  word-break: break-all;
 }
 
 .head-container img{

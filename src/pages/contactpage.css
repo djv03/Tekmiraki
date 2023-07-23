@@ -79,7 +79,11 @@
 
 .contact-form form input,
 .contact-form form textarea{
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
+}
+
+.contact-form form textarea{
+  width: 100%;
 }
 
 .contact-form form button{
