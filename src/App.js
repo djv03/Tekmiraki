@@ -12,13 +12,15 @@ function App() {
 	return (
 		<BrowserRouter>
 			<React.Fragment>
+				<section>
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<Homepage />}></Route>
 					<Route path='/about' element={<About />}></Route>
-					<Route path='/portfolio' element={<Portfolio />}></Route>
+					{/* <Route path='/portfolio' element={<Portfolio />}></Route> */}
 					<Route path='/contact' element={<Contact />}></Route>
 				</Routes>
+			</section>
 			</React.Fragment>
 			<Footer/>
 		</BrowserRouter>
