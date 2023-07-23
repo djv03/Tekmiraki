@@ -2,7 +2,7 @@ import './Navbar.css'
 import { useRef } from 'react'
 import { FaTimes } from 'react-icons/fa'
 import { AiOutlineMenu } from 'react-icons/ai'
-import logo from '../assets/Logo.jpg'
+import logo from '../assets/Logo.png'
 import { Link, NavLink } from 'react-router-dom';
 function Navbar() {
 
@@ -27,7 +27,7 @@ function Navbar() {
                     <a href="/" onClick={closeNavbar}><NavLink to='/'>Home</NavLink> </a>
                     <a href="/" onClick={closeNavbar}><NavLink to='/about'>About</NavLink></a>
                     <a href="/#services" onClick={closeNavbar}>Services</a>
-                    <a href="/" onClick={closeNavbar}><NavLink to='/contact'>Contact</NavLink></a>
+                    <a href="/contactpage" onClick={closeNavbar}><NavLink to='/contactpage'>Contact</NavLink></a>
                     <button
                         className="nav-btn nav-close-btn"
                         onClick={showNavbar}>

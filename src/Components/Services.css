@@ -15,18 +15,20 @@
 .services-section {
   display: flex;
   margin-top: 4rem;
-  gap: 2rem;
+  gap: 1rem;
+  justify-content: center;
 }
 .services-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   /* width: 30vw; */
 }
 .services-container > img {
   height: 23rem;
   width: 23rem;
+  border-radius: 0.125rem;
 }
 .services-content {
   width: 23rem;
@@ -34,6 +36,11 @@
   flex-direction: column;
   margin-top: 13px;
 }
+
+.services-content > h1{
+  word-wrap: break-word;
+}
+
 .services-content > h3 {
   color: gray;
   font-weight: 100;

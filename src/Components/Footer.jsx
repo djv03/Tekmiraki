@@ -5,7 +5,7 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 // import facebook from "../assets/facebook.png";
 // import linkedin from "../assets/linkedin.png";
 // import twitter from "../assets/pngtwitter.png";
-import logo from "../assets/Logo.jpg";
+import logo from "../assets/Logo.png";
 function Footer() {
   return (
     <div className="footer-section">
