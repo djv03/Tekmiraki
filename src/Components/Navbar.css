@@ -37,6 +37,7 @@ nav a {
 	text-decoration: none;
 	font-size: 1.5rem;
 	font-weight: bold;
+	padding-bottom: .35rem;
 }
 
 nav a:hover {
@@ -126,7 +127,8 @@ nav {
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
-		background-color: var(--mainColor);
+		/* background-color: var(--mainColor); */
+		background: transparent;
 		color: white;
 	}
 

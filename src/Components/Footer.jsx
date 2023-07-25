@@ -13,12 +13,12 @@ function Footer() {
         {/* <img  id='facebook' src={facebook} alt="facebook" />
             <img  id='linkedin' src={linkedin} alt="linkedin" />
             <img id='twitter'  src={twitter} alt="twitter" /> */}
-        <span><BsLinkedin style={{ color: "black", fontSize: "1.75rem" }} /></span>
+        <span><BsLinkedin style={{ color: "white", fontSize: "1.75rem" }} /></span>
         <span>
-          <BsInstagram style={{ color: "black", fontSize: "1.75rem" }} />
+          <BsInstagram style={{ color: "white", fontSize: "1.75rem" }} />
         </span>
         <span>
-          <BiSolidPhoneCall style={{ color: "black", fontSize: "1.75rem" }} />
+          <BiSolidPhoneCall style={{ color: "white", fontSize: "1.75rem" }} />
         </span>
       </div>
       <div className="logo">

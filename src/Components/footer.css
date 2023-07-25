@@ -19,7 +19,7 @@
 }
 
 .socials{
-    filter: invert(100%);
+    /* filter: invert(100%); */
     margin: 0px 3px;
 }
 
@@ -39,9 +39,14 @@
     color: white;
     font-size: 23px;
 }
-.copyright{
+
+.copyright p{
     margin: 13px;
+    min-width: 100vw;
+    text-align: center;
+    font-size: 1.5rem;
 }
+
 @media only screen and (max-width: 1024px){
     .footer-section{
         margin-top: auto;
@@ -63,6 +68,7 @@
     .footer-section>.copyright>p{
         text-align: center;
         font-size: 1.5rem;
+        margin: 0 1rem;
     }
 
     .footer-section>.copyright{

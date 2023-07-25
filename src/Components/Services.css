@@ -39,6 +39,7 @@
 
 .services-content > h1{
   word-wrap: break-word;
+  margin-bottom: .5rem;
 }
 
 .services-content > h3 {

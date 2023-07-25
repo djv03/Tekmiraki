@@ -65,12 +65,12 @@
 .socials{
     margin: 13px;
 }
-.socials>a>img{
+/* .socials>a>img{
     filter: invert(100%);
     height: 33px;
     width: 33px;
     transition: 0.2s;
-}
+} */
 .socials>a>img:hover{
     scale: 1.2;
 }

@@ -66,6 +66,10 @@
         text-align: center;
     }
 
+    .client-section>h1{
+        width: 80%;
+    }
+
     .client-container{
         flex-direction: column;
         justify-content: center;
