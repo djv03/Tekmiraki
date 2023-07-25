@@ -3,7 +3,6 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Homepage from "./Components/Homepage";
 import Footer from "./Components/Footer";
-import Adress from './Components/Adress';
 import IndustrialAutomation from "./pages/IndustrialAutomation";
 import AdvancedIOT from "./pages/AdvancedIOT";
 import IndustrialElectrical from "./pages/IndustrialElectrical";
@@ -11,7 +10,6 @@ import IndustrialElectrical from "./pages/IndustrialElectrical";
 import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Portfolio from "./pages/Portfolio";
 import ContactPage from "./pages/ContactPage";
 function App() {
   return (

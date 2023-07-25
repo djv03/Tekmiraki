@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { FaTimes } from 'react-icons/fa'
 import { AiOutlineMenu } from 'react-icons/ai'
 import logo from '../assets/Logo.png'
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 function Navbar() {
 
     const navRef = useRef();
