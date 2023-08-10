@@ -11,6 +11,14 @@ import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ContactPage from "./pages/ContactPage";
+import BuildingManagement from "./pages/BuildingManagement";
+import ProductProcess from "./pages/ProductProcess";
+import ROPlant from "./pages/ROPlant";
+import SewageTreatment from "./pages/SewageTreatment";
+import EnergyManagement from "./pages/EnergyManagement";
+import MachineHealth from "./pages/MachineHealth";
+import ConnectedLogistics from "./pages/ConnectedLogistics";
+import AssetManagement from "./pages/AssetManagement";
 function App() {
   return (
     <BrowserRouter>
@@ -30,7 +38,24 @@ function App() {
               path="/industrialelectrical"
               element={<IndustrialElectrical />}
             ></Route>
-						<Route path="/contactpage" element={<ContactPage />}></Route>
+            <Route
+              path="/buildingManagement"
+              element={<BuildingManagement />}
+            ></Route>
+            <Route path="/productProcess" element={<ProductProcess />}></Route>
+            <Route path="/roPlant" element={<ROPlant />}></Route>
+            <Route path="/sewage" element={<SewageTreatment />}></Route>
+            <Route
+              path="/energyManagement"
+              element={<EnergyManagement />}
+            ></Route>
+            <Route path="/machineHealth" element={<MachineHealth />}></Route>
+            <Route path="/logistics" element={<ConnectedLogistics />}></Route>
+            <Route
+              path="/assetManagement"
+              element={<AssetManagement />}
+            ></Route>
+            <Route path="/contactpage" element={<ContactPage />}></Route>
             {/* <Route path="/contactpage" element={<AdressPage />}></Route> */}
           </Routes>
         </React.Fragment>

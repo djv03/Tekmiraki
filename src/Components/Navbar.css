@@ -73,6 +73,42 @@ nav {
 	background-color: rgb(43, 73, 163);
 }
 
+.dropdown {
+	position: relative;
+	display: flex;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	padding-top: 1rem;
+	top: 2.5rem;
+	background: #f8f8ff;
+	color: black;
+	z-index: 1;
+	border-top: 5px solid #007FFF;
+	padding: 1rem 0.5rem;
+}
+
+.dropdown-content a{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #333;
+	height: 100%;
+}
+
+.dropdown-content a:last-child,
+.dropdown-content a:nth-last-child(2){
+	border-bottom: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: grid;
+	row-gap: 0.25rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+
 .active{
 	border-bottom: 2px solid black;
 }
