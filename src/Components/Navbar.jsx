@@ -22,47 +22,48 @@ function Navbar() {
           <img src={logo} alt="profile pic" />
         </div>
         <nav ref={navRef}>
-          <a href="/" onClick={closeNavbar}>
+          <p href="/" onClick={closeNavbar}>
             <NavLink to="/">Home</NavLink>{" "}
-          </a>
-          <a href="/" onClick={closeNavbar}>
+          </p>
+          <p href="/" onClick={closeNavbar}>
             <NavLink to="/about">About</NavLink>
-          </a>
-          <a href="/#services" onClick={closeNavbar}>
-            Services
-          </a>
+          </p>
+          <p href="/#services" onClick={closeNavbar}>
+          <NavLink to="/service">Service</NavLink>
+          </p>
           <div className="dropdown">
-            <a>Solutions</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <p>Solutions</p>
             <div className="dropdown-content">
-              <a href="/">
+              <p href="/">
                 <Link to="/buildingManagement">Building Management</Link>
-              </a>
-              <a href="/">
+              </p>
+              <p href="/">
                 <Link to="/productProcess">Product Process Monitoring</Link>
-              </a>
-              <a href="/">
+              </p>
+              <p href="/">
                 <Link to="/roPlant">RO Plant Monitoring</Link>
-              </a>
-              <a href="/">
+              </p>
+              <p href="/">
                 <Link to="/sewage">Sewage Treatment Plant</Link>
-              </a>
-              <a href="/">
+              </p>
+              <p href="/">
                 <Link to="/energyManagement">Energy Management</Link>
-              </a>
-              <a href="/">
+              </p>
+              <p href="/">
                 <Link to="/machineHealth">Machine Health Monitoring</Link>
-              </a>
-              <a href="/">
+              </p>
+              <p href="/">
                 <Link to="/logistics">Connected Logistics</Link>
-              </a>
-              <a href="/">
+              </p>
+              <p href="/">
                 <Link to="/assetManagement">Asset Management & Ticketing</Link>
-              </a>
+              </p>
             </div>
           </div>
-          <a href="/contactpage" onClick={closeNavbar}>
+          <p href="/contactpage" onClick={closeNavbar}>
             <NavLink to="/contactpage">Contact</NavLink>
-          </a>
+          </p>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>

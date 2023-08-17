@@ -39,7 +39,14 @@ nav a {
 	font-weight: bold;
 	padding-bottom: .35rem;
 }
-
+nav p{
+	margin: 0 1rem;
+	color: black;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-bottom: .35rem;
+}
 nav a:hover {
 	color: rgb(1, 1, 120);
 }
@@ -168,7 +175,7 @@ nav {
 		color: white;
 	}
 
-	nav a {
+	nav a, nav p {
 		font-size: 1.5rem;
 		color: white;
 	}
