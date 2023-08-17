@@ -19,6 +19,7 @@ import EnergyManagement from "./pages/EnergyManagement";
 import MachineHealth from "./pages/MachineHealth";
 import ConnectedLogistics from "./pages/ConnectedLogistics";
 import AssetManagement from "./pages/AssetManagement";
+
 function App() {
   return (
     <BrowserRouter>
